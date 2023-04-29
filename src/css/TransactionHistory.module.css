@@ -1,0 +1,18 @@
+@import '/src/css/utils/vars.css';
+
+.transaction_history {
+  table-layout: fixed;
+  min-width: 300px;
+  border-collapse: collapse;
+  border: 1px solid var(--black-clr);
+}
+
+thead {
+  background-color: #8181f7;
+}
+
+th,
+td {
+  padding: 2px 5px;
+  border: 1px solid var(--black-clr);
+}
